@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: phonepictures
+  host: phonepictures
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
